@@ -1,0 +1,347 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 15px;
+    font-family: "arial",sans-serif;
+}
+.with
+{
+    width: 77%;
+}
+header
+{
+    width: 100%; 
+    background: linear-gradient( 90deg, rgba(83, 82, 92, 1) 0%, rgb(94, 30, 77) 
+    100%, rgba(8, 28, 133, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    padding-top:6rem;
+    padding-bottom: 3rem;
+
+}
+header h2
+{
+    color:white;  
+    font-size:2.10rem;  
+    word-spacing: 0.8rem;
+}
+header p
+{
+    color:rgb(223, 213, 213);
+    font-weight: bold;
+    line-height: 1.50rem;
+    text-transform: capitalize;  
+    padding-left: 1.50rem;
+    font-size: 1rem;
+}
+.coton{
+    padding: 0.60rem 1.50rem;
+    background-color: rgb(17, 216, 123);
+    border-radius: 2rem;
+    border: none;
+    color:white; 
+    margin-left: 1.50rem;
+ 
+}
+.coton:hover
+{
+    text-decoration: none;
+    background-color: aqua;
+    box-shadow: 0.10rem 0.10rem 0.99rem 0.10rem blue;
+    color:white; 
+    padding: 0.80rem 1.90rem;
+}
+.add-border
+{
+    border-left: 1px solid gray; 
+}
+.too{
+    border-left: 1px solid rgb(186, 186, 186); 
+}
+
+/*second box starts*/
+.add-borde
+{
+    border-right: 1px solid gray; 
+}
+.second-box
+{
+    padding: 5rem 0;
+}
+.text-s{
+    padding-left: 3.60rem;
+}
+
+.sec-butn{
+    padding: 0.70rem 1.50rem;
+    background:none;
+    border: 1px solid gray;
+    border-radius: 2rem; 
+    color:black;  
+    margin-top: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+ 
+}
+.sec-butn:hover{
+    text-decoration: none;
+    background-color: aqua;
+    box-shadow: 0.10rem 0.10rem 0.99rem 0.10rem blue;
+    color:black; 
+    padding: 0.80rem 1.90rem;
+}
+
+.second-box p
+{
+line-height: 1.70rem; 
+padding-bottom: 1.70rem;
+padding-top: 1.40rem;
+}
+.text-s ol li{
+    list-style: none;
+    line-height: 2.60rem;
+}
+ /*third starts*/
+
+i{
+color: rgb(17, 216, 123);
+}
+
+
+.secon-ful
+{
+    width: 100%;
+    background-color: rgb(250, 250, 250); 
+    align-content: center; 
+    border-top: 0.01rem solid rgb(220, 215, 215); 
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+ /*
+.fourty
+{ 
+    padding:2rem;
+
+}
+ 
+
+.eighty
+{
+    width: 60%;
+    background-color: white; 
+}
+
+img{
+    width: 100%;  
+}
+
+.eighty h3
+{  
+}
+.eighty p
+{
+    line-height: 1.90rem; 
+}*/
+.photo{
+    width: 40%;
+   /* display: inline-block;
+    background-color: teal;*/
+}
+.tttt{
+    width: 60%;
+   /* display: inline;
+    float:right; 
+    background-color: violet;
+    border-bottom: 1px solid black;
+    padding: 4rem 1.50rem;*/
+    background-color: white; 
+    box-shadow:  0rem  0.02rem 0rem 0rem gray;
+    padding-left: 2.50rem; 
+}
+.tttt h3
+{
+padding-top: 3.60rem; 
+}
+
+.tttt p
+{
+    line-height: 1.90rem;
+    padding: 2rem 0rem;
+}
+.three-butn{
+    padding: 0.70rem 2.50rem;
+    background:none;
+    border: 1px solid gray;
+    border-radius: 2rem; 
+    color:black;   
+    text-decoration: none;
+    font-weight: bold;
+ 
+}
+
+.three-butn:hover
+{
+    padding: 0.80rem 3rem; 
+    border: 1px solid gray;
+    border-radius: 2rem; 
+    color:black;   
+    text-decoration: none;
+    background-color: rgb(29, 199, 199);
+    box-shadow: 0.10rem 0.10rem 0.99rem 0.10rem blue;
+ 
+}
+ 
+
+.top{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img
+{
+    width: 100%;
+}
+.fourty
+{ 
+    padding:1.60rem 0rem;
+
+}
+.cents{ 
+margin-left: 42.50%;
+top: 2rem;
+padding: 0.70rem 2.50rem;
+    background:none;
+    border: 1px solid gray;
+    border-radius: 2rem; 
+    color:black;   
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+}
+.cents:hover{ 
+    margin-left: 42.50%;
+    top: 2rem;
+    padding: 0.70rem 2.50rem; 
+    background-color: cyan;
+        border: 1px solid gray;
+        border-radius: 2rem; 
+        color:black;   
+        text-decoration: none;
+        font-weight: bold;
+        position: relative;
+        box-shadow: 0.10rem 0.10rem 0.99rem 0.10rem blue;
+    }
+
+
+    /*fourth starts*/
+    .foor
+    {
+        
+        padding: 3.30rem 0rem;
+    }
+    .bor
+    {
+        border-right:1px solid rgb(216, 216, 216);
+    }
+    .foor p
+    {
+        line-height: 1.80rem;
+        padding: 0.50rem 0rem;
+    }
+    li 
+    {
+        list-style: none;
+        padding-left: 4rem; 
+        padding-top: 1.15rem;
+    }
+    .sort
+    {
+        padding: 0.60rem 1.80rem;
+        background:none;
+        border: 1px solid gray;
+        border-radius: 2rem; 
+        color:black;   
+        text-decoration: none;
+        font-weight: bold;
+        position: relative;  
+    }
+    input{
+        width:45%;
+        height:3rem;
+        border: 0.10rem solid  rgb(213, 210, 210);
+        border-radius: 0.20rem;
+    }
+    textarea
+    {
+        width:99%;
+        border: 0.10rem solid  rgb(213, 210, 210);
+    }
+    .sort:hover
+    { 
+        border: 0.10rem solid  rgb(213, 210, 210);
+        background-color: rgb(37, 236, 250);
+        box-shadow: 0.10rem 0.10rem 0.99rem 0.10rem green;
+    }
+footer
+{
+    text-align: center;
+    background-color: rgb(250, 250, 250); 
+    border-top: 0.10rem solid rgb(226, 222, 222);
+    padding: 5rem 0rem;
+    font-size: 1rem;
+}
+
+
+
+@media screen and (max-width:1100px){
+    html{
+        font-size: 16px;
+    }
+    .with h2{
+     font-size: 1.30rem;
+     line-height: 1.60rem;
+    }
+    .with p{
+        padding-top: 1rem;
+        padding-left:0; 
+        text-align: justify;
+    }
+     
+    .too{
+        border-left: none;
+        border-top: 0.08rem solid rgb(177, 173, 173); 
+        margin-top: 2rem;
+    }
+    .text-s{
+        padding-left: none;
+    }
+    
+    .photo{
+        width:100%;
+    }
+    .tttt{
+        width:100%;
+        padding-bottom: 2rem;
+    }
+    .tttt p{
+        text-align: left;
+    }
+    .cents{  
+        margin-left:5.70rem;
+    }
+    .bor{
+        border-top: 0.10rem solid gray;
+        border-right: none;
+    }
+    input{
+        width:100%;
+        border-radius: 0.10rem;
+    }
+    .add-border{
+        border-top: 0.08rem solid rgb(177, 173, 173);
+        border-left: none; 
+        margin-top: 1rem;  
+    }
+}
